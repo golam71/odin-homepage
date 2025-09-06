@@ -3,3 +3,47 @@ html {
   padding: 0px;
   margin: 0px;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+}
+
+div.image {
+  background-image: url("./public/pfp.png");
+  margin: 10px;
+  min-height: 400px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+div.image p {
+  color: white;
+  font-size: 3rem;
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about h1 {
+  font-size: 3rem;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about p {
+  padding: 5px 15px;
+  line-height: 1.5;
+  word-spacing: 0.3rem;
+}
+
+div.heroicons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
