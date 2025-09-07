@@ -132,6 +132,7 @@ footer img {
   box-sizing: border-box;
 }
 footer {
+  margin-top: 3rem;
   text-align: center;
   padding: 10px;
   background-color: #0891b2;
